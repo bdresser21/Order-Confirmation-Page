@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    /*font-family: 'Noto Sans', sans-serif;*/
+    font-weight: 800;
+}
+h1 {
+    font-size: 3rem ;
+}
+
+img {
+    width: 100% ;
+}
+.customer-info, .total-amount {
+    background-color: aliceblue;
+    
+}
+
+.section-content {
+    padding: 50px;
+}
+
+.btn, h5 {
+    text-transform: uppercase;
+    font-weight: 700 ;
+}
+.product-name {
+    font-weight: bold;
+}
+
+.footer {
+    height: 75px ;
+}
+
+
+
+
+

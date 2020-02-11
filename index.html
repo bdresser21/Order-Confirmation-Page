@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans:400,700&display=swap" rel="stylesheet"> 
+
+    <title>Order Confirmation Page</title>
+</head>
+<body>
+    <div class = "container bg-white">
+        <h2 class = "logo text-center text-primary pt-5">Logo</h2>
+        <section class = "order-status section-content text-center">
+            <h1 id = "order-status" class = "pb-5">Your order is on its way.</h1>
+            <a id = "track-btn" class = "btn btn-primary btn-lg text-white pr-5 pl-5" href = "#" role = "button">Track Your Order</a>
+        </section>
+        <section class = "customer-info section-content grid-container">
+            <div class = "row first-row text-center">
+                <!--Column left-->
+                <div class = "col-sm ">
+                    <h5>Order Summary:</h5>
+                    <p><strong>Order #: </strong> 1234567876543<br>
+                        <strong>Order Date:</strong> 07/08/2020<br>
+                        <strong>Tracking #:</strong>    9876543234888<br>
+                        <strong>Provider:</strong> UPS</p>
+                </div>
+                <!--Column middle-->
+                <div class = "col-sm">
+                    <h5>Shipping Address:</h5>
+                    <p>Company Name<br>
+                        John Doe<br>
+                        1234 Main Street<br>
+                        Anywhere, USA 98765</p>
+                    
+                </div>
+                <!--Column right-->
+                <div class = "col-sm">
+                    <h5>Billing Address:</h5>
+                    <p>Company Name<br>
+                        John Doe<br>
+                        1234 Main Street<br>
+                        Anywhere, USA 98765</p>
+                </div>
+            </div>
+        </section>
+
+        <section class = "items section-content">
+            <div class = "row first-row pb-5 border-bottom">
+                <div class = "col-sm product">
+                    <img src="img/cords.jpg" alt="product image" class="product-img">
+                </div>
+                <div class = "col-sm name-desc">
+                    <p class = "product-name">Product Name</p>
+                    <p>Three Word Desc.<br>
+                        Qty: 1
+                    </p>
+                </div>
+                <div class = "col-sm price text-right">
+                    <p>$500.00</p>
+                </div>
+                
+            </div>
+            <div class = "row second-row pt-5 pb-5 border-bottom">
+                <div class = "col-sm product">
+                    <img src="img/cords.jpg" alt="product image" class="product-img">
+                </div>
+                <div class = "col-sm name-desc">
+                    <p class = "product-name">Product Name</p>
+                    <p>Three Word Desc.<br>
+                        Qty: 1
+                    </p>
+                </div>
+                <div class = "col-sm price text-right">
+                    <p>$500.00</p>
+                </div>
+            </div>
+            <div class = "row third-row pt-5">
+                <div class = "col-sm product">
+                    <img src="img/cords.jpg" alt="product image" class="product-img">
+                </div>
+                <div class = "col-sm name-desc">
+                    <p class = "product-name">Product Name</p>
+                    <p>Three Word Desc.<br>
+                        Qty: 1
+                    </p>
+                </div>
+                <div class = "col-sm price text-right">
+                    <p>$564.50</p>
+                </div>
+            </div>   
+        </section>
+        <section class = "total-amount section-content">
+            <div class = "row">
+                <div class = "col-8 text-right">
+                    <p>Subtotal:</p>
+                    <p>Estimated Shipping:</p>
+                    <p class = "text-primary"><strong>Buying Group Discount:</strong></p>
+                    <p>Estimated Tax:</p>
+                    <p><strong>Order Total:</strong></p>
+                </div>
+                <div class = "col-4 text-right">
+                    <p id = "cost-subtotal">$1,564.50</p>
+                    <p id = "cost-shipping">Free Ground (UPS)</p>
+                    <p id = "cost-discount" class = "text-primary"><strong>-$31.29</strong></p>
+                    <p id = "cost-tax">$0.00</p>
+                    <p id = "cost-total" class = "pb-3"><strong>$1533.21</strong></p>
+                    <a id = "track-btn" class = "btn btn-primary btn-lg text-white pr-3 pl-3" href = "#" role = "button">Order Again</a>
+                </div>
+            </div>
+        
+        </section> 
+        <footer class = "footer pb-5">
+
+        </footer>      
+    </div>
+   
+
+
+
+
+
+
+
+
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+</body>
+</html>
